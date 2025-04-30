@@ -1,13 +1,13 @@
 {
   "mcpServers": {
     "brave-search": {
-      "command": "D:/Program Files/nodeJs/npx.cmd",
+      "command": "npx.cmd",
       "args": [
         "-y",
         "@modelcontextprotocol/server-brave-search"
       ],
       "env": {
-        "BRAVE_API_KEY": "BSAnuQ0DkJSfkzbTlR81MAj9z-7jrVu"
+        "BRAVE_API_KEY": "${BRAVE_API_KEY}"
       }
     }
   }
