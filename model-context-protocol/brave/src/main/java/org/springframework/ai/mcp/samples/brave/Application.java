@@ -35,7 +35,8 @@ public class Application {
 
 			String question = "Does Spring AI supports the Model Context Protocol? Please provide some references.";
 			logger.info("QUESTION: {}\n", question);
-			logger.info("ASSISTANT: {}\n", chatClient.prompt(question).call().content());
+//			logger.info("ASSISTANT: {}\n", chatClient.prompt(question).call().content());  //调用成功
+			logger.info("ANSWER: {}\n", chatClient.prompt().user(question).call().content()); // 调用失败
 
 			context.close();
 		};

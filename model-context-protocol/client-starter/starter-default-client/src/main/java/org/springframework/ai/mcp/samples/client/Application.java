@@ -46,7 +46,7 @@ public class Application {
 
 			System.out.println("\n>>> QUESTION: " + userInput);
 			System.out.println("\n>>> ASSISTANT: " + chatClient.prompt(userInput).call().content());  // didn't invoke the mcp request
-			System.out.println("\n>>> ASSISTANT: " + chatClient.prompt().user(userInput).call().content());
+//			System.out.println("\n>>> ASSISTANT: " + chatClient.prompt().user(userInput).call().content());
 
 			context.close();
 		};
