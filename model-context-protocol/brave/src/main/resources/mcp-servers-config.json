@@ -7,7 +7,6 @@
         "@modelcontextprotocol/server-brave-search"
       ],
       "env": {
-        "BRAVE_API_KEY": "BSAnuQ0DkJSfkzbTlR81MAj9z-7jrVu"
       }
     }
   }
