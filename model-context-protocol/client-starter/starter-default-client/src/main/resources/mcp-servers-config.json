@@ -1,14 +1,13 @@
 {
   "mcpServers": {
-    "brave-search": {
+    "filesystem": {
       "command": "npx.cmd",
       "args": [
         "-y",
-        "@modelcontextprotocol/server-brave-search"
-      ],
-      "env": {
-        "debug": true
-      }
+        "@modelcontextprotocol/server-filesystem",
+        "D:\\Projects\\Github\\spring-ai-examples\\",
+        "D:\\Projects\\Github\\spring-ai-examples\\"
+      ]
     }
   }
 }

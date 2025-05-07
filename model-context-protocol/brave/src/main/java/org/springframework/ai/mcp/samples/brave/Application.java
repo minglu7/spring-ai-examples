@@ -37,7 +37,7 @@ public class Application {
 //			logger.info("ASSISTANT: {}\n", chatClient.prompt(question).call().content());  //调用成功
 			logger.info("ANSWER: {}\n", chatClient.prompt().user(question).call().content()); // 调用失败
 
-			context.close();
+//			context.close();
 		};
 	}
 }
