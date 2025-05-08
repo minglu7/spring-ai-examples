@@ -5,9 +5,7 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-brave-search"
-      ],
-      "env": {
-      }
+      ]
     }
   }
 }
